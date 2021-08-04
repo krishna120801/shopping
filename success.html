@@ -8,7 +8,7 @@
 		<!-- link to Bootstrap JS -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<!-- link to external CSS -->
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="newcss.css">
     </head>
     <body>
         <nav class="nav navbar-fixed-top navbar-inverse">
@@ -30,17 +30,32 @@
                 </div>
             </div>
         </nav>
-        <div class="container panel-margin">
-            <div class="alert alert-success">
-                Your order is confirmed. Thank you for shopping with us.
-                <a href="products.html">Click here</a> to purchase any other item.
-            </div>
-        </div>
-        <footer>
+        <section class="order_confirmation pt-5 py-5 my-5" id="order_confirmation">
             <div class="container">
-                Copyright <span class="glyphicon glyphicon-copyright-mark"></span> LifeStyle Stores.
-                All Rights Reserved | Contact Us: +91 90000 00000
+          <div class="text-center mb-5">
+            <h1 class="text-capitalize">order confirmation</h1>
+          </div>
+          <div class="m-5 row">
+            <div class="col-md-6 mx-auto text-center">
+              <div>
+                <img src="image/success_tick.png" alt="success">
+              </div>
+              <div class="">
+                <h2>Thanks! For purchase :)</h2>
+                <h6>A confirmation mail is send on your given email</h6>
+                <h6><span class="mr-2">Order No.</span><span><b>485657112336</b></span></h6>
+          </h6>
+          <a href="index.html" class="btn btn-primary btn-lg mt-5">Return To Home</a>
+              </div>
             </div>
-        </footer>
+          </div>
+            </div>
+          </section>
+          <footer>
+			<div class="container">
+				Copyright <span class="glyphicon glyphicon-copyright-mark"></span> LifeStyle Stores.
+				All Rights Reserved | Contact Us: +91 90000 00000
+			</div>
+		</footer>
     </body>
 </html>
